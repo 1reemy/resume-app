@@ -1,0 +1,55 @@
+body{
+    size: 16px;
+}
+.input{
+    display:flex;
+    flex-direction: row;
+    width:64em;
+    justify-content: space-between;
+}
+.data{
+    display:flex;
+    flex-direction: column;
+    width:32em;
+}
+.experience{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    width:32em;
+}
+.preview{
+    width:30em;
+    border-style: solid;
+    padding-left:2rem;
+    /*margin-left:5rem;*/
+}
+label{
+    display:flex;
+    justify-content: space-between;
+    margin-left:1rem;
+}
+input{
+    width:20rem;
+    margin: 0rem 5rem 1rem 0rem;
+    display:flex;
+    align-items: flex-end;
+}
+textarea{
+    width:20rem;
+    height:8rem;
+    margin: 0rem 5rem 1rem 0rem;
+    display:flex;
+    align-items: flex-end;
+}
+button{
+    width:5rem;        
+}
+.buttonPress{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0rem 0rem 1rem 0rem;
+}
+span{
+    margin-left: 1rem;
+}
